@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.bvents.bv_anchor_helper.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientPlayerInteractionManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

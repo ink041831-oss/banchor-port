@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "bv_anchor_helper",
+  "version": "1.03",
+  "name": "BV Anchor Helper",
+  "description": " хелпер для якорей от тгк @bvents",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/bv_anchor_helper/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.bvents.bv_anchor_helper.client.Bv_anchor_helperClient"
+    ],
+    "main": [
+      "com.bvents.bv_anchor_helper.Bv_anchor_helper"
+    ]
+  },
+  "mixins": [
+    "bv_anchor_helper.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}
